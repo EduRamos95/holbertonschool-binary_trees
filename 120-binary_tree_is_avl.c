@@ -24,7 +24,7 @@ size_t _binary_tree_height(const binary_tree_t *tree)
  * @max: maximum value of n
  * Return: balance factor of descendants
  */
-_Bool is_balanced_bst(const binary_tree_t *tree, int min, int max)
+int is_balanced_bst(const binary_tree_t *tree, int min, int max)
 {
 	int a, b;
 
