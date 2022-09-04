@@ -18,7 +18,7 @@ size_t _binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_balance - measures the balance factor of a binary tree
+ * is_balanced_bst - measures the balance factor of a binary tree
  * @tree: input tree
  * @min: minimum value of n
  * @max: maximum value of n
